@@ -11,7 +11,14 @@
   "author": "Ives van Hoorne",
   "devDependencies": {
     "@types/node": "^22.5.5",
-    "nodemon": "^3.1.5"
+    "nodemon": "^3.1.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "telegraf": "^4.16.3"
+  }
 }
