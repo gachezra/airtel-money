@@ -478,7 +478,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/hz", (res) => {
-  res.json({ message: "Healthy AF" });
+  res.status(200).send({ message: "Healthy AF" });
 });
 
 app.post("/startgame", (req, res) => {
