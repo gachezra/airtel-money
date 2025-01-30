@@ -477,6 +477,10 @@ const app = express();
 
 app.use(express.json());
 
+app.get("/hz", (res) => {
+  res.json({ message: "Healthy AF" });
+});
+
 app.post("/startgame", (req, res) => {
   console.log("Match started:", req.body);
   res.status(200).send("Match started");
